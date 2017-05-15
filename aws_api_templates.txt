@@ -1,0 +1,36 @@
+Templates for AWS API:- (application/json)
+=================================================================
+For Delete Menu:-
+-------------------------
+{ 
+    "menu_id": "$input.params('menu_id')",
+    "input" : $input.json('$.input')
+}
+
+For Get Menu:-
+--------------------------
+{ 
+    "menu_id": "$input.params('menu_id')",
+    "input" : $input.json('$.input')
+}
+
+For Put Menu:-
+--------------------------
+{ 
+    "menu_id": "$input.params('menu_id')",
+    "input" : $input.json('$.input')
+}
+
+For Get Order:-
+---------------------------
+{ 
+    "order_id": "$input.params('order_id')",
+    "input" : $input.json('$.input')
+}
+
+For Put Order:-
+---------------------------
+{ 
+    "order_id": "$input.params('order_id')",
+    "input" : $input.json('$.input')
+}
